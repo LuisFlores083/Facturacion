@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css" type="text/css" />
+    <title>JAVASCRIPT</title>
+</head>
+    <body>
+        <header id="cabecera">
+            <h1>JAVASCRIPT</h1>
+        </header>
+
+        <section class="contenedor">
+            <article id="datos" class="content">
+                <h4>Datos de receptor</h4>
+                <div>
+                    <input type="text" name="" id="" placeholder="Razon Social">
+                    <input type="text" name="" id="" placeholder="RFC">
+                </div>
+                <div id = "inputGen">
+                    <input type="number" name="" id="numConceptos" value="0">
+                </div>
+                <div id = "botonGen">
+                    <button class="btn" id="btnEviar" onclick="Enviar()">Generar Conceptos</button>
+                </div>
+            </article>
+            <article id="conceptos" class="content">
+                <h4>Conceptos</h4>
+                <div id="concepto">
+                    <!--<div>
+                        <button class="btnElminar"><img src="img/letter-x.jpg"></button>
+                        <div>
+                            <p>Cantidad:</p>
+                            <input type="number" placeholder="0.00" name="" id="">
+                        </div>
+                        <div>
+                            <p>Descripción:</p>
+                            <input type="text" placeholder="Descripción" name="" id="">
+                        </div>
+                        <div>
+                            <p>Valor Unitario:</p>
+                            <input type="number" placeholder="0.00" name="" id="">
+                        </div>
+                        <div>
+                            <p>Importe:</p>
+                            <input type="number" placeholder="0.00" name="" id="">
+                        </div>
+                    </div>-->
+                </div>
+                <div id="botonGenUno">
+                    <button class="btn" id="btnGenerarUno" onclick="GenerarUno()">Generar Concepto</button>
+                    <button class="btn" id="recuperarDatos" onclick="RecuperarDatos()">Calcular</button>
+                </div>
+            </article>
+            <article id="facturacion" class="content">
+                <div class="datosFacturacion">
+                    <p>Subtotal:</p>
+                    <p id = "subtotal">00000</p>
+                </div>
+                <div class="datosFacturacion">
+                    <p>IVA:</p>
+                    <p id = "iva">00000</p>
+                </div>
+                <div class="datosFacturacion">
+                    <p>Total:</p>
+                    <p id = "total">00000</p>
+                </div>
+            </article>
+        </section>
+
+        <footer id="pie">
+
+        </footer>
+        <script src="java/codigo.js"></script>
+    </body>
+</html>

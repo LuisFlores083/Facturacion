@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oldenburg&family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rubik&display=swap');
+
+@font-face {
+    font-family: 'social';
+    src: url('../fonts/SocialMedia-ZxpB.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 0px;
+}
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3{
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+    font-size: 1.5rem; 
+}
+
+h2{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+h4{
+    font-size: 1.3rem;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#cabecera{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 75px;
+    background-color: rgb(165, 42, 165);
+    width: 100%;
+    padding: 10px;
+}
+
+#cabecera h1{
+    color: white;
+    text-align: center;
+}
+
+#datos{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid rgb(165, 42, 165);
+}
+
+#datos input{
+    margin: 10px;
+ }
+
+ #conceptos{
+    border: 1px solid rgb(165, 42, 165);
+    text-align: center;
+ }
+
+ #conceptos input{
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+ }
+
+    #concepto{
+        vertical-align: middle;
+    }
+    #concepto div{
+        display: inline-block;
+        font-size: 1rem;
+    }
+
+    .btnElminar{
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+    }
+
+    .btnElminar img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+#facturacion{
+    border: 1px solid rgb(165, 42, 165);
+    width: 20%;
+    margin: 0 0 0 80%;
+}
+
+.datosFacturacion{
+    display: block;
+
+}
+
+#botonGenUno{
+    display: none;
+}
+
+#recuperarDatos{
+    display: inline-block;
+}
+
+.btn{
+    background-color: rgb(165, 42, 165);
+    color: white;
+    border:rgb(165, 42, 165) 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.btn:hover{
+    background-color:white;
+    color: rgb(165, 42, 165);
+}
+
+.datosFacturacion p{
+    display: inline-block;
+    margin: 10px 0;
+    width: 50%;
+    font-size: 1rem;
+    border-bottom: 1px solid rgb(165, 42, 165);
+}
+
+.contenedor{
+    margin: 85px 10px;
+}
+
+.content{
+    margin: 10px 0;
+    padding: 10px;
+}
+
+
